@@ -1,16 +1,34 @@
 # safffety
 
-A system makes andriod more safety
+An App makes andriod more safety
 
-## Getting Started
+## 简介
 
-This project is a starting point for a Flutter application.
+为了熟练掌握Flutter框架和Dart语言，这是学习Flutter之后的第二个Demo，本软件包括四个模块，电池管理、应用管理、网络管理、短信拦截
 
-A few resources to get you started if this is your first Flutter project:
+### 电池管理
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+电池管理模块可告知用户电池健康状况信息、电池充电状态和预估充电时间/毫安时/电池预估使用时长、电池使用技术等信息
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 应用管理
+
+列出所有应用(包括系统应用)和其图标和类别，方便用户管理应用，可管理应用权限/卸载等操作(调用系统自带实现)
+
+### 网络管理
+
+此功能会探查连接的Wifi状态等信息，并自动扫描同一网段内常用端口的开放情况，并列出所有存活主机
+
+### 短信拦截
+
+自动分析短信是否为垃圾短信/广告/诈骗短信，从而标注并提示用户(暂未完全实现)
+
+## 部分截图
+
+![image-20210211184804941](README.assets/image-20210211184804941.png)
+
+![image-20210211184831587](README.assets/image-20210211184831587.png)
+
+![image-20210211184911342](README.assets/image-20210211184911342.png)
+
+![image-20210211185018737](README.assets/image-20210211185018737.png)
+
