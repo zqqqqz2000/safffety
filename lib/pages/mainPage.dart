@@ -22,7 +22,6 @@ class MainPage extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    _MainPage _mainPage = _MainPage();
     return _MainPage();
   }
 }
